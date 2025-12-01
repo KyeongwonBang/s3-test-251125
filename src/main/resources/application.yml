@@ -1,1 +1,5 @@
-spring.application.name=s3-exam-251124
+spring:
+  application:
+    name: s3-test-251124
+  profiles:
+    include: secret
